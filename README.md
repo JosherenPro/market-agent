@@ -25,7 +25,6 @@ Assistant de veille des **appels d'offres et avis de marchés publics du Togo**,
 | `scrapper.py` | Scraping du portail des marchés publics (BeautifulSoup). |
 | `app.py` | Interface Streamlit (UI clonée service-public.gouv.tg). |
 | `main.py` | Point d'entrée CLI. |
-| `portal/` | Mockup statique HTML/CSS du portail (clone visuel). |
 
 ## Outils de l'agent
 
@@ -65,17 +64,9 @@ streamlit run app.py
 python main.py --init   # indexe d'abord, puis chat
 ```
 
-![Portal clone](docs/screenshots/portal-clone.png)
-
 ## Stack
 
 LangGraph · LangChain · ChromaDB · Tavily · Ollama (gemma4, nomic-embed-text) · Streamlit · BeautifulSoup · Bootstrap Icons · Poppins.
-
-## Captures
-
-| Agent (Streamlit) | Mockup portail |
-|---|---|
-| `docs/screenshots/agent-ui.png` | `docs/screenshots/portal-clone.png` |
 
 ---
 
