@@ -65,13 +65,6 @@ streamlit run app.py
 python main.py --init   # indexe d'abord, puis chat
 ```
 
-### Mockup du portail
-
-```bash
-cd portal && python3 -m http.server 8000
-# ouvrez http://localhost:8000
-```
-
 ![Portal clone](docs/screenshots/portal-clone.png)
 
 ## Stack
