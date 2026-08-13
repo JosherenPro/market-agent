@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+env
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Dependencies (uv)
+.venv/
+uv-cache/
+
+# Data / vector stores
+chroma_db/
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Agent / tool caches
+.cache/
